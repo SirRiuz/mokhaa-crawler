@@ -2,7 +2,7 @@ import asyncio
 
 from crawl4ai import *
 
-from crawler.core.db import sqllite_conect
+from crawler.core.db.connection import database_conect
 from crawler.manager.url_record_manager import UrlRecords
 from crawler.utils.enty_point import save_entry_point_urls
 
@@ -36,7 +36,7 @@ async def main() -> None:
 
 if __name__ == "__main__":
     # Initialize database connection
-    sqllite_conect()
+    database_conect()
 
     # Run the async main function that starts the crawler
     asyncio.run(main())
