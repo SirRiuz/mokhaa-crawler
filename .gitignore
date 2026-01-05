@@ -1,2 +1,12 @@
 *.db
 *.env
+*.zip
+__pycache__
+*.db
+*.sqlite3
+.pytest_cache
+.env
+.DS_Store
+.TODO
+*.pyc
+.coverage

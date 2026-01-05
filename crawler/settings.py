@@ -17,7 +17,5 @@ DATABASE = {
 
 # TODO: This should be done automatically, similar to Django's
 # INSTALLED_APPS auto-discovery mechanism.
-from crawler.models.url_record import UrlRecord
-
-MAPPED_MODELS = [UrlRecord]
+MAPPED_MODELS = []
 

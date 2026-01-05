@@ -1,7 +1,6 @@
 from peewee import CharField
 
-from crawler.core.db import BaseModel
-from crawler.core.db import BaseModel
+from crawler.core.db.models import BaseModel
 
 
 class UrlRecord(BaseModel):
